@@ -11,6 +11,15 @@ app.use(bodyParser.json());
 
 const router = express.Router();
 
+mongoose.connect('mongodb+srv://dbUser:1234@cluster0-zawzu.mongodb.net/test', {useNewUrlParser: true});
+
+const connection = mongoose.connection;
+
+connection.once('open', ()=> {
+    console.log("MongoDB database connection established successfully");
+});
+
+
 app.listen(API_PORT,function() {
     console.log("Server is running up on Port:" + API_PORT);
 });
