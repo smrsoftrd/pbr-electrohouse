@@ -1,0 +1,18 @@
+{
+    "Person":[
+       {
+          "PersonId": 1,
+          "Name": "Sócrates",
+          "LastName": "Medina",
+          "Deactivated": false,
+          "SysCreationDate": "2016-06-23T19:42:31+07:00"
+       },
+       {
+          "PersonId": 2,
+          "Name": "Elías",
+          "LastName": "Pérez Borges",
+          "Deactivated": false,
+          "SysCreationDate": "2016-06-23T20:42:31+07:00"
+       }
+    ]
+ }

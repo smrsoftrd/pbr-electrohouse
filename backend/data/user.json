@@ -1,0 +1,20 @@
+{
+    "User": [
+       {
+          "UserId": 1,
+          "PersonId": 1,
+          "UserName": "smedina",
+          "Deactivated": false,
+          "Password": "1234",
+          "SysCreationDate": "2016-06-23T21:42:31+07:00"
+       },
+       {
+          "UserId": 2,
+          "PersonId": 2,
+          "UserName": "eperez",
+          "Deactivated": false,
+          "Password": "1234",
+          "SysCreationDate": "2016-06-23T22:42:31+07:00"
+       }
+    ]
+ }
