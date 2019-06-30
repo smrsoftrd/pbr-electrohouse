@@ -24,6 +24,6 @@ let UserSchema = new Schema({
         type: Date
     }
 
-});
+},{collection:'User'});
 
 module.exports = mongoose.model('User', UserSchema);
