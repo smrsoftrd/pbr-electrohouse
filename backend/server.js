@@ -13,8 +13,8 @@ app.use(cors());
 //app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
-//mongoose.connect('mongodb+srv://dbUser:1234@cluster0-zawzu.mongodb.net/electrohouse', {useNewUrlParser: true});
-mongoose.connect('mongodb://dbUser:1234@127.0.0.1:27017/electrohouse', {useNewUrlParser: true});
+mongoose.connect('mongodb+srv://dbUser:1234@cluster0-zawzu.mongodb.net/electrohouse', {useNewUrlParser: true});
+//mongoose.connect('mongodb://dbUser:1234@127.0.0.1:27017/electrohouse', {useNewUrlParser: true});
 
 mongoose.set('useCreateIndex',true);
 mongoose.set('useFindAndModify', false)
