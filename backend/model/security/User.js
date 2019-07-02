@@ -9,7 +9,8 @@ let UserSchema = new Schema({
         type: Number
     },
     UserName: {
-        type: String
+        type: String,
+        unique: true
     },
     Deactivated: {
         type: Boolean
